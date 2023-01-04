@@ -14,4 +14,4 @@ jobs:
       uses: github/super-linter@v3
       env:
         DEFAULT_BRANCH: main
-        GITHUB_TOKEN: ${{ secrets.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}}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
